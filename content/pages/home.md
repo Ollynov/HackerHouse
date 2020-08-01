@@ -1,9 +1,9 @@
 ---
 template: HomePage
-slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+slug: ""
+title: Hacker House
+featuredImage: https://ucarecdn.com/28e1caec-f699-4487-85ff-5cef1f450d63/
+subtitle: Kickstart your career change with the top pre-bootcamp prep course
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
