@@ -12,7 +12,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       large
       title={title}
       subtitle={subtitle}
-      backgroundImage={featuredImage}
+      // backgroundImage={featuredImage}
+      backgroundVideo={heroVideo}
+      videoTitle={videoTitle}
     />
 
     <section className="section">
@@ -45,6 +47,8 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        heroVideo
+        videoTitle
       }
     }
   }

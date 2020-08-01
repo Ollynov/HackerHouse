@@ -9,6 +9,8 @@ const PageHeader = ({
   title,
   subtitle,
   backgroundImage,
+  backgroundVideo,
+  videoTitle,
   large,
   className = ''
 }) => {
@@ -24,6 +26,16 @@ const PageHeader = ({
           size="cover"
         />
       )}
+      {backgroundVideo && (
+          <BackgroundVideo videoTitle={videoTitle}>
+            {video && <source src={backgroundVideo} type="video/mp4" />}
+          </BackgroundVideo>
+          /* <section className="BackgroundVideo-section section">
+            <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+              {video && <source src={video} type="video/mp4" />}
+            </BackgroundVideo>
+          </section> */
+      )}
       <div className="container relative">
         <h1 className="PageHeader--Title">{title}</h1>
         {subtitle && (
@@ -33,6 +45,8 @@ const PageHeader = ({
     </div>
   )
 }
+
+
 
 PageHeader.propTypes = {
   title: PropTypes.string,
