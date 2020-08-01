@@ -3,7 +3,7 @@ template: HomePage
 slug: ""
 title: Hacker House
 HeroVideo: https://ucarecdn.com/3753709e-2963-4f43-8d12-d72846bc733d/
-videoTitle: Video Title
+videoTitle: '""'
 subtitle: Kickstart your career change with the top pre-bootcamp prep course
 meta:
   description: This is a meta description.
