@@ -2,13 +2,13 @@
 template: HomePage
 slug: ""
 title: Hacker House
-HeroVideo: poi
-videoTitle: poi Title
-# featuredImage: https://ucarecdn.com/28e1caec-f699-4487-85ff-5cef1f450d63/
+HeroVideo: https://ucarecdn.com/3753709e-2963-4f43-8d12-d72846bc733d/
+videoTitle: Video Title
 subtitle: Kickstart your career change with the top pre-bootcamp prep course
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
+featuredImage: https://ucarecdn.com/28e1caec-f699-4487-85ff-5cef1f450d63/
 ---
 
 Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).

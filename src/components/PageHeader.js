@@ -38,12 +38,14 @@ const PageHeader = ({
             </BackgroundVideo>
           </section> */
       )}
-      <div className="container relative">
-        <h1 className="PageHeader--Title">{title}</h1>
-        {subtitle && (
-          <Content className="PageHeader--Subtitle" src={subtitle} />
-        )}
-      </div>
+      {!backgroundVideo && (
+        <div className="container relative">
+          <h1 className="PageHeader--Title">{title}</h1>
+          {subtitle && (
+            <Content className="PageHeader--Subtitle" src={subtitle} />
+          )}
+        </div>
+      )}
     </div>
   )
 }
