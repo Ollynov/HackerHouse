@@ -3,7 +3,7 @@ template: ContactPage
 slug: contact
 title: Contact Us
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: Send any questios or feedback to Hacker House
+subtitle: We would love to hear from you.
 address: Excelsior District, San Francisco, CA 94112
 phone: 555-5555
 email: hello@hackerhouse.com
@@ -18,10 +18,8 @@ meta:
 ---
 # Hacker House Contact
 
-This form is setup to use Netlify's form handling:
+Our first ever cohort is set to start in Fall of 2021. Our first cohort will include discounted pricing, and extra one on one help with industry level software engineers as we dedicate extra time to get the initial feedback that will be valuable in creating the best experience at Hacker House. 
 
-* the form action is set to the current absolute url: `action: '/contact/'`
-* a name attribute is sent with the form's data `'form-name': 'Contact'`
-* netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
+We would love to hear more from you, so please do not hesitate to contact us.
 
 Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
