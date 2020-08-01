@@ -138,11 +138,11 @@ class Form extends React.Component {
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Type of Enquiry"
+              defaultValue="Type of Message"
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                Type of Message
               </option>
               <option>Questions</option>
               <option>Feedback</option>
@@ -165,7 +165,7 @@ class Form extends React.Component {
               name="newsletter"
               type="checkbox"
             />
-            <span>Get news updates</span>
+            <span>Sign Up for Mailing List</span>
           </label>
           <div
             className="g-recaptcha"
@@ -176,7 +176,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Send"
             disabled={this.state.disabled}
           />
         </form>
