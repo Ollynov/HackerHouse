@@ -2,7 +2,9 @@
 template: HomePage
 slug: ""
 title: Hacker House
-featuredImage: https://ucarecdn.com/28e1caec-f699-4487-85ff-5cef1f450d63/
+HeroVideo: poi
+videoTitle: poi Title
+# featuredImage: https://ucarecdn.com/28e1caec-f699-4487-85ff-5cef1f450d63/
 subtitle: Kickstart your career change with the top pre-bootcamp prep course
 meta:
   description: This is a meta description.

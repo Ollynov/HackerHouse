@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 import Image from './Image'
 import Content from './Content'
 import './PageHeader.css'
+import BackgroundVideo from '../components/BackgroundVideo'
+
 
 const PageHeader = ({
   title,
@@ -28,7 +30,7 @@ const PageHeader = ({
       )}
       {backgroundVideo && (
           <BackgroundVideo videoTitle={videoTitle}>
-            {video && <source src={backgroundVideo} type="video/mp4" />}
+            {backgroundVideo && <source src={backgroundVideo} type="video/mp4" />}
           </BackgroundVideo>
           /* <section className="BackgroundVideo-section section">
             <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
