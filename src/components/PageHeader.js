@@ -28,15 +28,21 @@ const PageHeader = ({
           size="cover"
         />
       )}
-      {backgroundVideo && (
+      {backgroundVideo && videoTitle && (
           <BackgroundVideo videoTitle={videoTitle}>
             {backgroundVideo && <source src={backgroundVideo} type="video/mp4" />}
           </BackgroundVideo>
+
           /* <section className="BackgroundVideo-section section">
             <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
               {video && <source src={video} type="video/mp4" />}
             </BackgroundVideo>
           </section> */
+      )}
+      {backgroundVideo && !videoTitle && (
+          <BackgroundVideo>
+            {backgroundVideo && <source src={backgroundVideo} type="video/mp4" />}
+          </BackgroundVideo>
       )}
       {!backgroundVideo && (
         <div className="container relative">

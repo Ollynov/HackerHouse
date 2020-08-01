@@ -14,7 +14,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, HeroVideo, vi
       subtitle={subtitle}
       // backgroundImage={featuredImage}
       backgroundVideo={HeroVideo}
-      videoTitle={videoTitle}
+      // videoTitle={videoTitle}
     />
 
     <section className="section">
