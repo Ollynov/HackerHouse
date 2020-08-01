@@ -77,21 +77,21 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
+                placeholder="First name"
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>First Name</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
+                placeholder="Last name"
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>Last Name</span>
             </label>
           </div>
           <fieldset>
@@ -99,20 +99,29 @@ class Form extends React.Component {
               <input
                 className="Form--RadioInput"
                 type="radio"
-                name="gender"
-                value="male"
+                name="contactType"
+                value="Propsective Student"
                 defaultChecked
               />
-              <span>Male</span>
+              <span>Prospective Student</span>
             </label>
             <label className="Form--Label Form--Radio">
               <input
                 className="Form--RadioInput"
                 type="radio"
-                name="gender"
-                value="female"
+                name="contactType"
+                value="Alumni"
               />
-              <span>Female</span>
+              <span>Alumni</span>
+            </label>
+            <label className="Form--Label Form--Radio">
+              <input
+                className="Form--RadioInput"
+                type="radio"
+                name="contactType"
+                value="Other"
+              />
+              <span>Other</span>
             </label>
           </fieldset>
           <label className="Form--Label">
@@ -135,9 +144,9 @@ class Form extends React.Component {
               <option disabled hidden>
                 Type of Enquiry
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Questions</option>
+              <option>Feedback</option>
+              <option>Business Inquiries</option>
             </select>
           </label>
           <label className="Form--Label">
