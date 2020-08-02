@@ -1,31 +1,27 @@
 ---
 template: ComponentsPage
 slug: components
-title: Components Page
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: This is the components page subtitle.
+title: About Us
+featuredImage: https://ucarecdn.com/cabd9f1e-e85d-45ee-b585-697ab1f34000/
+subtitle: The best way to start your coding journey
 section1: >-
-  ## This is a container component
-
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
-  a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  ## Get accepted into one of the top 3 coding bootcamps. Guaranteed.
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit
-  scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam
-  vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
-  bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
-  vestibulum.
+  Hacker House is a 3 month in-person preparatory course in San Francisco, California. We are a beginner course that is perfect for anyone looking to learn programming. We cover all the basics, from HTML, all the way to some introductory React, and give the student not only the tools to get into a top coding bootcamp, but to keep up throughout the program, and succeed. 
+
+
+
+
+  Maintaining an inclusive environment is core to our values and we welcome everyone to apply for our 3 month program, or to reach out to us for more information. The unique aspect of our course is that we focus on the basics. The early stages in learning coding is the hardest, because despite having a lot of resources online, it is overwhelming, and oftentimes difficult to know where to start, or what learning framework to follow.
 section2: |-
-  ## You can use videos, images and text.
+  ## Meet the Hacker House Team
 
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
+video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
+videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: Also background videos, with poster image & title overlay.
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
@@ -38,13 +34,13 @@ accordion:
     title: Taciti lorem
 gallery:
   - alt: yellow rope image
-    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
+    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
     title: Yellow Rope
   - alt: umbrellas
-    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
+    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
     title: a bunch of umbrellas
   - alt: yellow ice cream
-    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
+    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
