@@ -57,6 +57,7 @@
   width: 100%;
   transition: 0.3s ease all;
   background: transparent;
+  color: white;
 }
 
 .Form--InputText:valid,
@@ -84,6 +85,7 @@
 .Form--Select {
   background: none;
   appearance: none;
+  opacity: .8;
 }
 
 .Form--Label.has-arrow:after {

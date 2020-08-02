@@ -22,6 +22,11 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, HeroVideo, vi
         <Content source={body} />
       </div>
     </section>
+    <section className="section white">
+      <div className="container">
+        <div> Divy divy!</div>
+      </div>
+    </section>
   </main>
 )
 

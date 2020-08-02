@@ -1,5 +1,6 @@
 .Nav {
-  background: white;
+  /* background: white; */
+  background: var(--blueGrayBackground);
   position: sticky;
   top: 0;
   z-index: 2;
