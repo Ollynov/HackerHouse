@@ -9,6 +9,7 @@ class Logo extends Component {
         className="Logo"
         style={{
           backgroundImage: `url(/images/HH-Mini-transparent.png)`,
+          name: `Go to Hacker House Homepage`,
           height: 45,
           width: 45
         }}
