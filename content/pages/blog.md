@@ -1,10 +1,13 @@
 ---
 template: BlogIndex
 slug: blog
-title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+title: Blog
+featuredImage: https://ucarecdn.com/5b98cc79-cd6d-46b0-b13e-78d77f16684a/
+subtitle: Posts by Hacker House founders and alumni
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: "Hacker House in San Francisco Blog. Hacker House is a course that
+    prepares students for coding bootcamps by teaching them introductory coding
+    in a three month program. During this time students live and work out of the
+    hacker house. "
+  title: Blog
 ---
