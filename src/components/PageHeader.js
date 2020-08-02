@@ -29,7 +29,7 @@ const PageHeader = ({
         />
       )}
       {backgroundVideo && videoTitle && (
-          <BackgroundVideo videoTitle={videoTitle}>
+          <BackgroundVideo hero={true} videoTitle={videoTitle}>
             {backgroundVideo && <source src={backgroundVideo} type="video/mp4" />}
           </BackgroundVideo>
 

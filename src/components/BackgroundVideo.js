@@ -39,10 +39,10 @@ class BackgroundVideo extends Component {
   }
 
   render() {
-    const { poster, videoTitle, children } = this.props
+    const { poster, videoTitle, children, hero } = this.props
     return (
       <Fragment>
-        {!this.state.mobileWidth && (
+        {{hero} && (
           <div className={`BackgroundVideo`}>
             <video
               ref={this.ref}
@@ -63,7 +63,7 @@ class BackgroundVideo extends Component {
             )}
           </div>
         )}
-        {this.state.mobileWidth && (
+        {!hero && this.state.mobileWidth && (
           <Fragment>
             <Image background src={poster} alt="Background poster" />
             {videoTitle && <h3 className="Poster--videoTitle">{videoTitle}</h3>}
