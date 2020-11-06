@@ -10,7 +10,7 @@ export default () => (
     <br />
     <footer className="footer">
       <div className="container taCenter">
-        <span>
+        <span className="footerContent">
           © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
           <a href="https://twitter.com/yoshcode">@yoshcode</a>.
         </span>

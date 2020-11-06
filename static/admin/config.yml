@@ -17,7 +17,7 @@ media_library:
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
-    label: 'Page'
+    label: 'Main Pages'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
@@ -242,7 +242,7 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
   - name: infoPages
-    label: Info Page
+    label: Additional Pages
     editor:
       preview: true
     folder: content/infoPages
@@ -280,7 +280,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: posts
-    label: Post
+    label: Blog Posts
     editor:
       preview: true
     folder: content/posts
@@ -335,7 +335,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: postCategories
-    label: Post Category
+    label: Blog Post Categories
     editor:
       preview: false
     folder: content/postCategories
